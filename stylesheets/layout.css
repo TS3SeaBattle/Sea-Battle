@@ -1,0 +1,86 @@
+#container
+{
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+
+	background-color: #D0E3E7;
+}
+
+h1
+{
+	font-size: 46px;
+}
+
+h2
+{
+	font-size: 30px;
+}
+
+h3
+{
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+header
+{
+	background-color: #008CBA;
+	border-bottom: 5px solid white;
+	border-top: 2px solid #008CBA;
+}
+
+#left
+{
+	display: inline-block;
+	width: 65%;
+}
+
+#right
+{
+	display: inline-block;
+	width: 34%;
+}
+
+#instructions
+{
+	display: block;
+	width: auto;
+	font-size: 20px;
+}
+
+#board
+{
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 2px solid black;
+}
+
+button
+{
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-bottom: 50px;
+	background-color: #008CBA;
+	font-size: 18px;
+	border-radius: 10px;
+	font-family: 'Oswald', sans-serif;
+	border: 1px solid black;
+	transition-duration: 0.4s;
+}
+
+button:hover
+{
+	background-color: black;
+	color: #D0E3E7;
+	border: 1px solid white;
+	border-radius: 8px;
+}
